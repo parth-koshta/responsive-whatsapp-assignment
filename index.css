@@ -1,0 +1,262 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-size: 16px;
+}
+
+.header-property {
+	background: #075E54;
+	height: 4rem;
+}
+
+.head-text {
+	color: #fff;
+	font-size: 2rem;
+
+}
+
+.icon-menu {
+	width: 1.5rem;
+}
+
+.left-arrow {
+	width: 1rem;
+}
+
+.header-menu-btn {
+	background-color: transparent;
+}
+
+.header-section {
+	background: #075E54;
+	margin-top: 4rem;
+}
+
+.header-section-camera {
+	width: 1.5rem;
+}
+
+.header-section-element-text {
+	color: #fff;
+	font-size: 1rem;
+}
+
+.header-section-element-text:hover {
+	/*background-color: red;*/
+	color: #fff;
+	text-decoration: none;
+}
+
+.disabled-elements {
+	opacity: .5;
+}
+
+.active-elements {
+	border-bottom: 2px solid #fff;
+}
+
+.chatbox-section {
+	/*background: #999;*/
+	margin-bottom: 5rem;
+}
+
+.chatbox-section-element {
+	border-bottom: .05px solid;
+	border-color: #999;
+	padding: 1rem 0 .5rem 0;
+}
+
+.chat-img {
+	width: 2.5rem;
+	border: none;
+	border-radius: 50%;
+}
+
+.tick {
+	width: 1rem;
+	margin-right: .5rem;
+}
+
+.user-name {
+	color: #000;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 0 0 1rem;
+}
+
+.user-name:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.user-message {
+	margin: 0 0 0 1.2rem;
+	color: #ECE5DD;
+}
+
+.unread-message{
+	color: #128c7e;
+}
+
+.badge {
+	background: #128c7e;
+	color: #fff;
+	margin-left: .5rem;
+}
+
+.message-time {
+	margin: 0 1rem 0 0;
+	font-size: 1rem;
+}
+
+.contacts-button{
+	width: 50px;
+	height: 50px;
+	background: #075E54;
+	position: fixed;
+	border: none;
+	border-radius: 100%;
+}
+
+.chat-icon {
+	height: 1.5rem;
+	width: 1.5rem;
+	margin: 15px 0 0 13px;
+}
+
+.profile-section {
+	margin-top: 4rem;
+	background: #ece5dd;
+}
+
+.profile-img {
+	width: 15rem;
+	border: none;
+	border-radius: 50%;
+	margin: 5rem 0 2rem 0;
+	position: relative;
+}
+
+.edit-btn {
+	border: 1px solid;
+	border-radius: 10px;
+	padding: .3rem 1rem .3rem 1rem;
+	border-color: #075E54;
+	margin:0 1rem 1rem 1rem;
+}
+
+.edit-btn-text:hover {
+	color: #075E54;
+}
+
+.edit-btn-text {
+	color: #075E54;
+}
+
+.edit-icon {
+	width: 3rem;
+	position: relative;
+	top: -6rem;
+	right: -11rem;
+	border: none;
+	border-radius: 50%;
+	background: #075E54;
+	padding: .5rem;
+	/*margin: 1rem;*/
+}
+
+.edit-username-btn {
+	background: #fff;
+}
+
+.edit-username {
+	width: 1.5rem;
+}
+
+.info-section {
+	background: #ece5dd;
+}
+
+.about-head {
+	color: #075E54;
+}
+
+.status-details {
+	border-bottom: .1px solid #ece5dd;
+}
+
+.status-section {
+	border-bottom: 10px solid #ece5dd;
+}
+
+.user-name-white {
+	color: #fff;
+}
+
+.chat-section {
+	margin-top: 4rem;
+	background-image: url(images/whatsapp-back.jpg);
+}
+
+.chat-msg {
+	background: #ece5dd;
+	border: 1px solid #ece5dd;
+	border-radius: 10px;
+}
+
+.user-message {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+}
+
+.write-msg-box {
+	height: 3rem;
+	border: 1px solid #ece5dd;
+	border-radius: 20px;
+	overflow: auto;
+    outline: none;
+}
+
+.emoji-icon {
+	width: 2rem;
+}
+
+ @media only screen and (max-width: 380px) {
+ 	.head-text {
+		font-size: 1.5rem;
+	}
+	.icon-menu {
+		width: 1rem;
+	}
+ 	.header-section-element-text {
+		font-size: .8rem;
+	}
+	.message-time {
+		font-size: .8rem;
+	}
+	.chat-img {
+		width: 2rem;
+	}
+ }
+
+ @media only screen and (max-width: 500px) {
+ 	.emoji-icon {
+ 		width: 1.2rem;
+ 	}
+ }
+
+@media only screen and (min-height: 650px) {
+	.contacts-button {
+		margin-top: 5rem;
+	}
+}
+
+@media only screen and (min-height: 800px) {
+	.contacts-button {
+		margin-top: 12rem;
+	}
+}
+
